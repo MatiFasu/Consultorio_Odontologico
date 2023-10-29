@@ -1,0 +1,6 @@
+La clase madre, persona, no queremos que persista como tabla pero si que nos sirva de plantilla para las clases hijas.
+
+Mapeo Persona
+Si usamos tabla.per.class la id tiene que estar en la clase madre.
+@Temporal(TemporalType.DATE) esto va hacer que la base de datos tengamos la fecha bien con el formato correspondiente.
+(strategy = GenerationType.IDENTITY) -> identidad secuencial a la otra.
